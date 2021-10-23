@@ -46,5 +46,6 @@ class PostsRestControllerTest {
                 .andExpect(content().string(
                         containsString("\"author\":\"test author\"")
                 ));
+        
     }
 }
